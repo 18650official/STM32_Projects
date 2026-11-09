@@ -1,0 +1,23 @@
+# Normalize text line endings; mark binary assets explicitly.
+* text=auto
+
+*.pdf binary
+*.PDF binary
+*.chm binary
+*.zip binary
+*.rar binary
+*.7z binary
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.bmp binary
+*.ico binary
+*.exe binary
+*.EXE binary
+*.dll binary
+*.pack binary
+*.a binary
+*.o binary
+*.elf binary
+*.hex binary
+*.bin binary

@@ -1,0 +1,78 @@
+# ---------------------------------------------------------------------------
+# Keil MDK / STM32 build outputs
+# ---------------------------------------------------------------------------
+Objects/
+Listings/
+DebugConfig/
+*.o
+*.d
+*.crf
+*.axf
+*.hex
+*.lst
+*.map
+*.dep
+*.lnp
+*.sct
+*.uvoptx
+*.uvguix.*
+*.bak
+*.dbgconf
+*.Administrator
+*.Miku
+*.Admin
+*.iex
+*.saved_uv4
+*.scvd
+
+# ---------------------------------------------------------------------------
+# CMake / Ninja build outputs
+# ---------------------------------------------------------------------------
+build/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# ---------------------------------------------------------------------------
+# VS Code generated data
+# ---------------------------------------------------------------------------
+.vscode/.browse.c_cpp.db*
+.vscode/ipch/
+.vscode/.cmake/
+
+# ---------------------------------------------------------------------------
+# OS / editor junk
+# ---------------------------------------------------------------------------
+Thumbs.db
+Desktop.ini
+.DS_Store
+.idea/
+*.code-workspace
+*~
+*.swp
+*.swo
+*.tmp
+
+# ---------------------------------------------------------------------------
+# Archives, shortcuts, installers, large media
+# ---------------------------------------------------------------------------
+*.rar
+*.zip
+*.7z
+*.tar
+*.gz
+*.tgz
+*.lnk
+*.url
+*.iso
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.psd
+*.raw
+*.bag

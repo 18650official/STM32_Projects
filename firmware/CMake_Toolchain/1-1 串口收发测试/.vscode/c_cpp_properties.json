@@ -1,0 +1,34 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}/**", 
+                "${workspaceFolder}/Code/**", 
+                "${workspaceFolder}/Code/Hardware/**", 
+                "${workspaceFolder}/Code/Library**", 
+                "${workspaceFolder}/Code/System**", 
+                "${workspaceFolder}/Code/User**"
+            ],
+            "defines": [
+                "USE_STDPERIPH_DRIVER", //使用标准库驱动
+                "STM32F103xx", 
+                "_DEBUG", 
+                "_UNICODE", 
+                "UNICODE"
+            ],
+            "compilerPath": "d:\\Program Files\\mingw64\\bin\\gcc.exe", //编译器路径
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "gcc-arm", 
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,17 @@
+    {"version":"0.2.0",
+    "configurations": [
+        {
+            "cwd": "${workspaceRoot}",
+            "executable": "C:/Users/Miku/Desktop/开发/STM32开发/Project/CMake开发/Object/Project.elf",   
+            "name": "Debug with OpenOCD",
+            "request": "launch",
+            "type": "cortex-debug",
+            "servertype": "openocd",
+            "configFiles": [
+                "D:/Program Files/OpenOCD/share/openocd/scripts/interface/stlink-v2.cfg",  //在OpenOCD选择下载器
+                "D:/Program Files/OpenOCD/share/openocd/scripts/target/stm32f1x.cfg"    //在OpenOCD选择芯片
+            ],
+            "svdFile": "C:/Users/Miku/Desktop/开发/STM32开发/Project/CMake开发/Source/stm32f103.svd",   //选择寄存器文件
+        }
+    ]
+}
